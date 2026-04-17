@@ -187,7 +187,44 @@ namespace Actividad_20_progra_3
             }
             
 
+            public Paciente(string nombre, int dpi, int telefono, int edad)
 
+            {
+                this.nombre = nombre;
+
+                this.dpi = dpi;
+
+                this.telefono = telefono;
+
+                this.edad = edad;
+
+
+            }
+
+            public void Mostrarinfo()
+
+            {
+                Console.WriteLine();
+
+                Console.WriteLine("DATOS DEL PACIENTE:");
+
+                Console.WriteLine($"Nombre: {Nombre} ");
+
+                Console.WriteLine();
+
+                Console.WriteLine($"No. de dpi: {Dpi}");
+
+                Console.WriteLine();
+
+                Console.WriteLine($"No. de telefono: +502 {Telefono}");
+
+                Console.WriteLine();
+
+                Console.WriteLine($"Edad: {Edad} años");
+
+
+
+            }
 
 
 
