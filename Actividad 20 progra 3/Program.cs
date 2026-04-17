@@ -52,6 +52,55 @@ namespace Actividad_20_progra_3
 
             }
 
+            private int dpi;
+
+            public int Dpi
+
+            {
+                get
+
+                {
+
+                    return dpi;
+
+                }
+
+                set
+
+                {
+
+                    long dpi = value;
+               
+                    int cantidad = dpi.ToString().Length;
+
+                    if (dpi.ToString().Length == 13)
+
+                    {
+
+                        dpi = value;
+
+
+                    }
+
+                    else
+
+                    {
+
+                        Console.WriteLine("El número de dpi debe tener 13 carácteres exactos");
+
+
+                    }
+
+
+
+                }
+
+
+            }
+
+
+            
+
 
 
 
@@ -69,6 +118,11 @@ namespace Actividad_20_progra_3
 
         static void Main(string[] args)
         {
+
+          
+
+
+
         }
     }
 }
