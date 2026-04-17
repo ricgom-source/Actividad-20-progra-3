@@ -99,6 +99,51 @@ namespace Actividad_20_progra_3
             }
 
 
+            private int telefono;
+
+            public int Telefono
+
+            {
+
+                get
+
+                {
+                    return telefono;
+
+                }
+
+
+                set
+
+                {
+                    long telefono = value;
+
+                    int digitos = telefono.ToString().Length;
+
+                    if (telefono.ToString().Length == 13)
+
+                    {
+
+                        telefono = value;
+
+
+                    }
+
+                    else
+
+                    {
+
+                        Console.WriteLine("El número debe tener 8 dígitos");
+
+
+                    }
+
+
+                }
+
+            }
+
+            private int edad
             
 
 
