@@ -143,7 +143,48 @@ namespace Actividad_20_progra_3
 
             }
 
-            private int edad
+            private int edad;
+
+            public int Edad
+
+
+            {
+                get
+
+                {
+                    return edad;
+
+
+                }
+
+                set
+
+                {
+                    if(value>=0)
+
+                    {
+
+                        edad = value;
+
+
+                    }
+
+                    else
+
+                    {
+
+                        Console.WriteLine("La edad debe ser mayor a cero años");
+
+
+                    }
+
+
+
+                }
+
+
+
+            }
             
 
 
